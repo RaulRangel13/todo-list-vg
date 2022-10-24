@@ -11,8 +11,7 @@ import { Signup } from './pages/signup';
 function App() {
   return (
     <div >
- 
-        <Header />
+        {/* <Header /> */}
         <Routes>
             <Route path='/' element={<TodoPrivate><TodoList /></TodoPrivate> }/>
             <Route path='/login' element={<Login />}/>

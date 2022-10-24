@@ -69,13 +69,6 @@ export const TodoContextProvider = ({ children }: { children: JSX.Element }) => 
         // useTodoApi.addTodos(JSON.parse(tempTododos))
     },[reload])
 
-    // useEffect(()=>{
-    //     const tempTododos = localStorage.getItem("todosContext")
-    //     if(!tempTododos)
-    //     return
-    //     useTodoApi.addTodos(JSON.parse(tempTododos))
-    // },[todosContext])
-
     return(
         <TodoContext.Provider value={{setTodoContextt , todosContext, setTodosContextt, UpdateTodoContextt,reloadList}}>
             {children}

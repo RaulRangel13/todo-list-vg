@@ -76,20 +76,6 @@ export const Signup = () => {
                 <div className="signup"><span className="pointer" onClick={handleLogin}> ou <strong> ja possui cadastro</strong> </span></div>
             </div>
         </div>
-
-
-
-        {/* <div className="container">
-            <form onSubmit={handleSubmit}>
-                <label htmlFor="">e-mail</label>
-                <input type="text" value={email} onChange={(e) => setEmail(e.target.value)} />
-                <label htmlFor="">senha</label>
-                <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} />
-                <label htmlFor="">confirme a senha</label>
-                <input type="password" value={confirPassword} onChange={(e) => setCpassword(e.target.value)} />
-                <button type="submit">login</button>
-            </form>
-        </div> */}
         </div>
        
     )
